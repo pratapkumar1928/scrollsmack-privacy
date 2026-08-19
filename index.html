@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ScrollSmack Privacy Policy</title>
+<meta name="description" content="Privacy policy for the ScrollSmack Android app. ScrollSmack collects nothing, transmits nothing, and has no network permission.">
+<style>
+  :root{
+    --bg:#000; --fg:#f2f2f2; --dim:#8a8a8a; --rule:#242424;
+    --red:#ff2d2d; --yellow:#ffd400; --coral:#ffb4ab; --card:#0c0c0c;
+    --mono:ui-monospace,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+    --sans:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;background:var(--bg);color:var(--fg);font-family:var(--sans);
+    font-size:17px;line-height:1.65;-webkit-text-size-adjust:100%;
+  }
+  .stripe{
+    height:10px;
+    background:repeating-linear-gradient(135deg,var(--yellow) 0 14px,#000 14px 28px);
+  }
+  header{padding:44px 0 28px}
+  .wrap{max-width:720px;margin:0 auto;padding:0 22px}
+  .mark{font-family:var(--mono);font-weight:700;font-size:26px;letter-spacing:.06em;margin:0}
+  .mark .a{color:var(--red)}
+  .mark .b{color:#fff}
+  h1{font-size:31px;line-height:1.2;letter-spacing:-.01em;margin:26px 0 6px}
+  .updated{font-family:var(--mono);font-size:13px;color:var(--dim);letter-spacing:.04em;text-transform:uppercase;margin:0}
+  h2{
+    font-size:14px;font-family:var(--mono);letter-spacing:.14em;text-transform:uppercase;
+    color:var(--yellow);margin:44px 0 12px;padding-bottom:8px;border-bottom:1px solid var(--rule);
+  }
+  p{margin:0 0 16px}
+  ul{margin:0 0 16px;padding-left:22px}
+  li{margin-bottom:9px}
+  strong{color:#fff}
+  code{font-family:var(--mono);font-size:.88em;background:#151515;padding:2px 6px;color:var(--coral)}
+  .lede{
+    border-left:3px solid var(--red);background:var(--card);
+    padding:18px 20px;margin:0 0 8px;font-size:18px;
+  }
+  .lede p:last-child{margin-bottom:0}
+  .tablewrap{overflow-x:auto;margin:0 0 16px}
+  table{border-collapse:collapse;width:100%;min-width:420px;font-size:15px}
+  th,td{text-align:left;padding:11px 12px;border-bottom:1px solid var(--rule);vertical-align:top}
+  th{
+    font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--dim);font-weight:600;
+  }
+  td:first-child{color:#fff;white-space:nowrap}
+  a{color:var(--coral)}
+  a:hover{color:var(--yellow)}
+  footer{margin:56px 0 0;padding:22px 0 46px;border-top:1px solid var(--rule);
+    font-family:var(--mono);font-size:13px;color:var(--dim)}
+  @media (max-width:560px){
+    body{font-size:16px}
+    h1{font-size:26px}
+    td:first-child{white-space:normal}
+  }
+</style>
+</head>
+<body>
+<div class="stripe"></div>
+
+<header>
+  <div class="wrap">
+    <p class="mark"><span class="a">SCROLL</span><span class="b">SMACK</span></p>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: 19 August 2026</p>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <div class="lede">
+    <p>ScrollSmack collects nothing, transmits nothing, and has no servers. The app
+    has no network permission at all, so it is not technically capable of sending
+    your data anywhere.</p>
+  </div>
+
+  <h2>What the app stores</h2>
+  <p>Everything ScrollSmack knows lives only on your device, in the app's private
+  storage:</p>
+  <ul>
+    <li><strong>Which apps you chose to track</strong> — the package names you ticked in the picker.</li>
+    <li><strong>Your time limit</strong> — the number of minutes you selected.</li>
+  </ul>
+  <p>That is the entire list. Deleting the app deletes it.</p>
+  <p>Android's Auto Backup is switched <strong>off</strong> for ScrollSmack, and both
+  cloud backup and device-to-device transfer (Samsung Smart Switch and similar) are
+  explicitly excluded. Your list of tracked apps never leaves the phone even when you
+  migrate to a new one — the trade-off being that you re-pick your apps and limit
+  after a factory reset or a new device.</p>
+
+  <h2>What the app reads</h2>
+  <ul>
+    <li><strong>Usage access (<code>PACKAGE_USAGE_STATS</code>)</strong> — ScrollSmack asks
+    Android which app is currently in the foreground, roughly once a second, so it can
+    measure how long you have been continuously using an app you chose to track. This
+    reading never leaves your device, is never written to a file, and is never associated
+    with an identity — the app has no accounts.</li>
+    <li><strong>Installed apps</strong> — to show you a list to choose from, ScrollSmack
+    asks Android for apps that have a launcher icon. This list is displayed to you and
+    not recorded.</li>
+  </ul>
+
+  <h2>What the app does not do</h2>
+  <ul>
+    <li>No accounts, sign-in, or identifiers.</li>
+    <li>No analytics, crash reporting, advertising, or tracking SDKs.</li>
+    <li>No network requests of any kind.</li>
+    <li>No cloud backup and no device-to-device transfer of app data.</li>
+    <li>No selling or sharing of data with anyone, because no data is collected.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>ScrollSmack is not directed at children and collects no data from anyone,
+  including children.</p>
+
+  <h2>Permissions summary</h2>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Permission</th><th>Why</th></tr></thead>
+      <tbody>
+        <tr><td>Usage access</td><td>Measure continuous use of the apps you selected</td></tr>
+        <tr><td>Display over other apps</td><td>Draw the full-screen interruption when you cross your limit</td></tr>
+        <tr><td>Foreground service</td><td>Keep the timer running while you use other apps</td></tr>
+        <tr><td>Notifications</td><td>Android requires a visible notification while the timer runs</td></tr>
+        <tr><td>Ignore battery optimizations (optional)</td><td>Stop the system from killing the timer early</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Changes</h2>
+  <p>If this policy ever changes, the updated version will be posted at this same
+  address with a new "last updated" date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy:
+  <a href="mailto:pratapkumar.1928@gmail.com">pratapkumar.1928@gmail.com</a></p>
+
+  <footer>ScrollSmack — tough-love screen time for Android.</footer>
+</main>
+
+<div class="stripe"></div>
+</body>
+</html>
