@@ -1,6 +1,6 @@
 # ScrollSmack Privacy Policy
 
-**Last updated:** 19 August 2026
+**Last updated:** 3 September 2026
 
 ## The short version
 
@@ -65,4 +65,4 @@ address with a new "last updated" date.
 
 ## Contact
 
-Questions about this policy: **pratapkumar.1928@gmail.com**
+Questions about this policy: **scrollsmack.app@gmail.com**
