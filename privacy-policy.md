@@ -1,6 +1,6 @@
 # ScrollSmack Privacy Policy
 
-**Last updated:** 3 September 2026
+**Last updated:** 23 November 2026
 
 ## The short version
 
@@ -10,11 +10,21 @@ data anywhere.
 
 ## What the app stores
 
-Everything ScrollSmack knows lives only on your device, in the app's private
-storage:
+Everything ScrollSmack knows lives only on your device. The app's private storage
+holds:
 
 - **Which apps you chose to track** — the package names you ticked in the picker.
 - **Your time limit** — the number of minutes you selected.
+- **Whether it is on, off or paused** — including when a pause ends, when you
+  turned it off (used to time reminders), and when you first turned it on.
+- **Rating prompt counters** — how many roasts you have dismissed, and how many
+  times and when the app last asked for a rating.
+
+ScrollSmack also keeps a small **diagnostic log** in its own app folder on your
+device's shared storage. It holds timestamps for events such as the timer starting
+or stopping, a pause, a reminder, a phone restart or a limit being crossed, along
+with the limit in minutes and whether the app's permissions are granted. It does
+not contain the names of the apps you use, and it is never sent anywhere.
 
 That is the entire list. Deleting the app deletes it.
 
@@ -29,11 +39,18 @@ factory reset or a new device.
 - **Usage access (`PACKAGE_USAGE_STATS`)** — ScrollSmack asks Android which app
   is currently in the foreground, roughly once a second, so it can measure how
   long you have been continuously using an app you chose to track. This reading
-  never leaves your device, is never written to a file, and is never associated
-  with an identity — the app has no accounts.
+  never leaves your device, which app is on screen is never written to a file,
+  and nothing is associated with an identity — the app has no accounts.
 - **Installed apps** — to show you a list to choose from, ScrollSmack asks
   Android for apps that have a launcher icon. This list is displayed to you and
   not recorded.
+
+## Google Play ratings
+
+After you have used ScrollSmack for a few days, it may ask Google Play to show its
+standard rating prompt. Google Play displays that prompt and handles any rating or
+review you choose to submit, under Google's own privacy policy. ScrollSmack cannot
+see whether you rated it or what you wrote.
 
 ## What the app does not do
 
@@ -55,8 +72,9 @@ including children.
 | Usage access | Measure continuous use of the apps you selected |
 | Display over other apps | Draw the full-screen interruption when you cross your limit |
 | Foreground service | Keep the timer running while you use other apps |
-| Notifications | Android requires a visible notification while the timer runs |
+| Notifications | Show the notification Android requires while the timer runs, and reminders after you turn ScrollSmack off |
 | Ignore battery optimizations (optional) | Stop the system from killing the timer early |
+| Run at startup | Restart the timer after a phone restart or app update if you left it on, and restore reminders |
 
 ## Changes
 
